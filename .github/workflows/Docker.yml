@@ -32,7 +32,7 @@ jobs:
             file: ./Dockerfile
             # Push is a shorthand for --output=type=registry
             push: true
-            tags: rodrigo453/go_ci:${{ github.ref_name }}
+            tags: rodrigo453/go_ci:${{ github.ref_name }} 
           
             
 
